@@ -18,7 +18,7 @@ cd book-review-app
 npm start
 ```
 
-For more information related to initialization check [Initialization Steps](https://github.com/nehawork/book-review-app/documents/initialization-steps.pdf) 
+For more information related to initialization check [Initialization Steps](https://github.com/nehawork/book-review-app/blob/master/documents/initialization-steps.pdf) 
 
 ## 3. Installation for required packages for design and routing
 
