@@ -6,7 +6,7 @@ With below steps you can learn basic concepts of ReactJS with example of Book re
 
 For this project we require NodeJS, Visual Studio Code and Git installed in your machine.
 
-If any of them not installed then feel free to check this [Installation Guide](https://github.com/nehawork/book-review-app/documents/installation-guide.pdf) 
+If any of them not installed then feel free to check this [Installation Guide](https://github.com/nehawork/book-review-app/blob/master/documents/installation-guide.pdf) 
 
 ## 2. Initialization
 
