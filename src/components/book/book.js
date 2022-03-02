@@ -37,14 +37,18 @@ const Book = ({ name, author, reviews }) => {
         </div>
       )}
 
-      <Button variant="light" onClick={openReviewModal}>Add Review</Button>
+      <Button
+        className="add-review-button"
+        variant="secondary"
+        onClick={openReviewModal}
+      >
+        Add Review
+      </Button>
 
       {isBookReviewVisible && (
         <AddReview
           onCloseReviewModal={closeReviewModal}
           onSaveReview={saveReview}
-          bookName={name}
-          bookAuthor={author}
         />
       )}
     </div>

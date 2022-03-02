@@ -1,13 +1,9 @@
 import { useState } from "react";
 import { Button, Modal } from "react-bootstrap";
+import AddBookReview from "./add-book-review";
 import "./style.css";
 
-const AddReview = ({
-  bookName,
-  bookAuthor,
-  onCloseReviewModal,
-  onSaveReview,
-}) => {
+const AddReview = ({ onCloseReviewModal, onSaveReview }) => {
   const [reviewText, setReviewText] = useState("");
 
   const onSubmit = () => {
@@ -26,19 +22,7 @@ const AddReview = ({
       </Modal.Header>
 
       <Modal.Body>
-        <div>
-          <b>{bookName}</b>
-          <div>{bookAuthor}</div>
-        </div>
-
-        <hr />
-
-        <textarea
-          placeholder="Enter book review here"
-          rows={6}
-          onChange={(e) => setReviewText(e.target.value)}
-          value={reviewText}
-        />
+        <AddBookReview reviewText={reviewText} setReviewText={setReviewText} />
       </Modal.Body>
 
       <Modal.Footer>

@@ -24,31 +24,37 @@ function getBooksFromStore() {
     {
       id: 2,
       name: "The God of Small Things",
-      author: "Paulo Coelho",
+      author: "Arundhati Roy",
       reviews: [],
     },
     {
       id: 3,
       name: "The Notebook",
-      author: "Paulo Coelho",
+      author: "Nicholas Sparks",
       reviews: [],
     },
     {
       id: 4,
       name: "Fault in our stars",
-      author: "Paulo Coelho",
+      author: "John green",
       reviews: [],
     },
     {
       id: 5,
       name: "Power of subconcious mind",
-      author: "Paulo Coelho",
+      author: "Joseph murphy",
       reviews: [],
     },
     {
       id: 6,
       name: "Think and grow rich",
-      author: "Paulo Coelho",
+      author: "Napoleon hill",
+      reviews: [],
+    },
+    {
+      id: 7,
+      name: "Harry potter and the philosopher's stone",
+      author: "J K rowling",
       reviews: [],
     },
   ];

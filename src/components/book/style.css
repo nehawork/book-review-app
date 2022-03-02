@@ -22,3 +22,7 @@ textarea {
   margin: 20px;
   border-radius: 10px;
 }
+
+.add-review-button {
+  margin-top: 16px;
+}
